@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="Sei" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xmlmime="http://www.w3.org/2004/11/xmlmime" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:consultarDocumentoResponse>
+			<parametros xsi:type="ns1:RetornoConsultaDocumento">
+				<IdProcedimento xsi:type="xsd:string">566983</IdProcedimento>
+				<ProcedimentoFormatado xsi:type="xsd:string">1070.01.0000035/2018-30</ProcedimentoFormatado>
+				<IdDocumento xsi:type="xsd:string">567148</IdDocumento>
+				<DocumentoFormatado xsi:type="xsd:string">0453251</DocumentoFormatado>
+				<LinkAcesso xsi:type="xsd:string">https://www.sei.mg.gov.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=566983&amp;id_documento=567148</LinkAcesso>
+				<Serie xsi:type="ns1:Serie">
+					<IdSerie xsi:type="xsd:string">761</IdSerie>
+					<Nome xsi:type="xsd:string">Formulário COF - Pleitos Orçamentários/Financeiros</Nome>
+				</Serie>
+				<Numero xsi:nil="true"/>
+				<Data xsi:type="xsd:string">23/03/2018</Data>
+				<UnidadeElaboradora xsi:type="ns1:Unidade">
+					<IdUnidade xsi:type="xsd:string">110003125</IdUnidade>
+					<Sigla xsi:type="xsd:string">GMG/DPOF</Sigla>
+					<Descricao xsi:type="xsd:string">Diretoria de Planejamento, Orçamento e Finanças</Descricao>
+				</UnidadeElaboradora>
+				<AndamentoGeracao xsi:type="ns1:Andamento">
+					<Descricao xsi:type="xsd:string">Gerado documento público 0453251 (Formulário COF - Pleitos Orçamentários/Financeiros)</Descricao>
+					<DataHora xsi:type="xsd:string">23/03/2018 16:53:39</DataHora>
+					<Unidade xsi:type="ns1:Unidade">
+						<IdUnidade xsi:type="xsd:string">110003125</IdUnidade>
+						<Sigla xsi:type="xsd:string">GMG/DPOF</Sigla>
+						<Descricao xsi:type="xsd:string">Diretoria de Planejamento, Orçamento e Finanças</Descricao>
+					</Unidade>
+					<Usuario xsi:type="ns1:Usuario">
+						<IdUsuario xsi:type="xsd:string">100288403</IdUsuario>
+						<Sigla xsi:type="xsd:string">07992111680</Sigla>
+						<Nome xsi:type="xsd:string">Dafne Murca Martins</Nome>
+					</Usuario>
+				</AndamentoGeracao>
+				<Assinaturas SOAP-ENC:arrayType="ns1:Assinatura[1]" xsi:type="ns1:ArrayOfAssinatura">
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Fernando Antônio Arantes</Nome>
+						<CargoFuncao xsi:type="xsd:string">Servidor(a) Público(a)</CargoFuncao>
+						<DataHora xsi:type="xsd:string">02/04/2018 18:52:34</DataHora>
+						<IdUsuario xsi:type="xsd:string">100288363</IdUsuario>
+						<IdOrigem xsi:nil="true"/>
+						<IdOrgao xsi:type="xsd:string">6</IdOrgao>
+						<Sigla xsi:type="xsd:string">77679172668</Sigla>
+					</item>
+				</Assinaturas>
+				<Publicacao xsi:nil="true" xsi:type="ns1:Publicacao"/>
+				<Campos SOAP-ENC:arrayType="ns1:Campo[15]" xsi:type="ns1:ArrayOfCampo">
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">NUMERO DO FORMULÁRIO</Nome>
+						<Valor xsi:type="xsd:string">5</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Data:</Nome>
+						<Valor xsi:type="xsd:string">23/03/2018</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">1. Identificação do solicitante</Nome>
+						<Valor xsi:nil="true"/>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Órgão/Entidade:</Nome>
+						<Valor xsi:type="xsd:string">GMG</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Responsável Técnico:</Nome>
+						<Valor xsi:type="xsd:string">Dáfne Murça Martins</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">E-mail (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">dafne.martins@gabinetemilitar.mg.gov.br</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Telefone (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">39150962</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">2. Identificação da Demanda</Nome>
+						<Valor xsi:nil="true"/>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">a) Demanda:</Nome>
+						<Valor xsi:type="xsd:string">19</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Se outros, favor especificar:</Nome>
+						<Valor xsi:type="xsd:string">Remanejamento de cota aprovada</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">b) Resumo do pedido:</Nome>
+						<Valor xsi:type="xsd:string">Solicitação de remanejamento para acobertar despesas com os Palácios Governamentais.</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">c) Valor:</Nome>
+						<Valor xsi:type="xsd:string">11.044,46</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">d) Dotação orçamentária origem:</Nome>
+						<Valor xsi:nil="true"/>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">e) Dotação orçamentária destino:</Nome>
+						<Valor xsi:type="xsd:string">1071 04 122 072 4167 0001 33903008 0 10 1</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">f) Justificativa do pedido e/ou da não programação</Nome>
+						<Valor xsi:type="xsd:string">Necessidade de aquisição de produtos alimentícios para atender demanda dos Palácios Governamentais, bem como existem contratos, cujo elemento item é 30-08, que irão vencer no início do mês de abril/2018.</Valor>
+					</item>
+				</Campos>
+			</parametros>
+		</ns1:consultarDocumentoResponse>
+		<ns1:consultarDocumentoResponse>
+			<parametros xsi:type="ns1:RetornoConsultaDocumento">
+				<IdProcedimento xsi:type="xsd:string">602264</IdProcedimento>
+				<ProcedimentoFormatado xsi:type="xsd:string">1690.01.0009767/2018-75</ProcedimentoFormatado>
+				<IdDocumento xsi:type="xsd:string">602943</IdDocumento>
+				<DocumentoFormatado xsi:type="xsd:string">0482331</DocumentoFormatado>
+				<LinkAcesso xsi:type="xsd:string">https://www.sei.mg.gov.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=602264&amp;id_documento=602943</LinkAcesso>
+				<Serie xsi:type="ns1:Serie">
+					<IdSerie xsi:type="xsd:string">761</IdSerie>
+					<Nome xsi:type="xsd:string">Formulário COF - Pleitos Orçamentários/Financeiros</Nome>
+				</Serie>
+				<Numero xsi:nil="true" />
+				<Data xsi:type="xsd:string">02/04/2018</Data>
+				<UnidadeElaboradora xsi:type="ns1:Unidade">
+					<IdUnidade xsi:type="xsd:string">110000849</IdUnidade>
+					<Sigla xsi:type="xsd:string">SESP/DPO</Sigla>
+					<Descricao xsi:type="xsd:string">Diretoria de Planejamento e Orçamento</Descricao>
+				</UnidadeElaboradora>
+				<AndamentoGeracao xsi:type="ns1:Andamento">
+					<Descricao xsi:type="xsd:string">Gerado documento público 0482331 (Formulário COF - Pleitos Orçamentários/Financeiros)</Descricao>
+					<DataHora xsi:type="xsd:string">02/04/2018 11:31:50</DataHora>
+					<Unidade xsi:type="ns1:Unidade">
+						<IdUnidade xsi:type="xsd:string">110000849</IdUnidade>
+						<Sigla xsi:type="xsd:string">SESP/DPO</Sigla>
+						<Descricao xsi:type="xsd:string">Diretoria de Planejamento e Orçamento</Descricao>
+					</Unidade>
+					<Usuario xsi:type="ns1:Usuario">
+						<IdUsuario xsi:type="xsd:string">100025097</IdUsuario>
+						<Sigla xsi:type="xsd:string">76644723691</Sigla>
+						<Nome xsi:type="xsd:string">Andre Toscano De Oliveira E Souza</Nome>
+					</Usuario>
+				</AndamentoGeracao>
+				<Assinaturas SOAP-ENC:arrayType="ns1:Assinatura[2]" xsi:type="ns1:ArrayOfAssinatura">
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Andre Toscano De Oliveira E Souza</Nome>
+						<CargoFuncao xsi:type="xsd:string">Servidor da Diretoria de Planejamento e Orçamento</CargoFuncao>
+						<DataHora xsi:type="xsd:string">02/04/2018 17:26:07</DataHora>
+						<IdUsuario xsi:type="xsd:string">100025097</IdUsuario>
+						<IdOrigem xsi:type="xsd:string">carga_inicial</IdOrigem>
+						<IdOrgao xsi:type="xsd:string">37</IdOrgao>
+						<Sigla xsi:type="xsd:string">76644723691</Sigla>
+					</item>
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Cristiane Torres Maia de Carvalho</Nome>
+						<CargoFuncao xsi:type="xsd:string">Superintendente</CargoFuncao>
+						<DataHora xsi:type="xsd:string">02/04/2018 17:50:16</DataHora>
+						<IdUsuario xsi:type="xsd:string">100025127</IdUsuario>
+						<IdOrigem xsi:type="xsd:string">carga_inicial</IdOrigem>
+						<IdOrgao xsi:type="xsd:string">37</IdOrgao>
+						<Sigla xsi:type="xsd:string">05520766606</Sigla>
+					</item>
+				</Assinaturas>
+				<Publicacao xsi:nil="true" xsi:type="ns1:Publicacao" />
+				<Campos SOAP-ENC:arrayType="ns1:Campo[15]" xsi:type="ns1:ArrayOfCampo">
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">NUMERO DO FORMULÁRIO</Nome>
+						<Valor xsi:type="xsd:string">004</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Data:</Nome>
+						<Valor xsi:type="xsd:string">02/04/2018</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">1. Identificação do solicitante</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Órgão/Entidade:</Nome>
+						<Valor xsi:type="xsd:string">SESP</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Responsável Técnico:</Nome>
+						<Valor xsi:type="xsd:string">André Toscano</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">E-mail (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">andre.toscano@seguranca.mg.gov.br</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Telefone (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">39155775</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">2. Identificação da Demanda</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">a) Demanda:</Nome>
+						<Valor xsi:type="xsd:string">Suplementação Orçamentária  Aporte de Recursos</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Se outros, favor especificar:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">b) Resumo do pedido:</Nome>
+						<Valor xsi:type="xsd:string">Solicitamos aporte orçamentário no valor de R$ 2.533.866,00 para atendimento às necessidades de aquisições para cumprimento do Plano Estratégico da SESP, bem como para atividades operacionais da SINSP.</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">c) Valor:</Nome>
+						<Valor xsi:type="xsd:string">2.533.866,00</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">d) Dotação orçamentária origem:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">e) Dotação orçamentária destino:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">f) Justificativa do pedido e/ou da não programação</Nome>
+						<Valor xsi:type="xsd:string">Na ação 1147, o valor de R$136.200,00 será utilizado para aquisição de equipamento para operação conjunta com o Centro Integrado de Comando e Controle (CICC) e na ação 4618, o valor de R$ 2.397.666,00 será utilizado para ações operacionais das dezenove Regiões Integradas de Segurança Pública do Estado de Minas Gerais e visando a realização da campanha Sou pela Vida, Dirijo sem Bebida. SESP realiza, juntamente com instituições parceiras operações integradas de blitz repressiva com foco na Lei Seca, uma vez que o uso de álcool está associado a grande porcentagem dos acidentes de trânsito. Nesse sentido, a SESP precisa realizar a compra destes bens que serão utilizados nas blitzen de Lei Seca para a manutenção da campanha Sou pela Vida. Dirijo Sem Bebida, caso contrário não será realizada as operações, tendo em vista a falta dos bens. Em anexo planilha detalhada deste aporte orçamentário.</Valor>
+					</item>
+				</Campos>
+			</parametros>
+		</ns1:consultarDocumentoResponse>
+		<ns1:consultarDocumentoResponse>
+			<parametros xsi:type="ns1:RetornoConsultaDocumento">
+				<IdProcedimento xsi:type="xsd:string">602264</IdProcedimento>
+				<ProcedimentoFormatado xsi:type="xsd:string">1690.01.0009767/2018-75</ProcedimentoFormatado>
+				<IdDocumento xsi:type="xsd:string">602943</IdDocumento>
+				<DocumentoFormatado xsi:type="xsd:string">0482331</DocumentoFormatado>
+				<LinkAcesso xsi:type="xsd:string">https://www.sei.mg.gov.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=602264&amp;id_documento=602943</LinkAcesso>
+				<Serie xsi:type="ns1:Serie">
+					<IdSerie xsi:type="xsd:string">761</IdSerie>
+					<Nome xsi:type="xsd:string">Formulário COF - Pleitos Orçamentários/Financeiros</Nome>
+				</Serie>
+				<Numero xsi:nil="true" />
+				<Data xsi:type="xsd:string">02/04/2018</Data>
+				<UnidadeElaboradora xsi:type="ns1:Unidade">
+					<IdUnidade xsi:type="xsd:string">110000849</IdUnidade>
+					<Sigla xsi:type="xsd:string">SESP/DPO</Sigla>
+					<Descricao xsi:type="xsd:string">Diretoria de Planejamento e Orçamento</Descricao>
+				</UnidadeElaboradora>
+				<AndamentoGeracao xsi:type="ns1:Andamento">
+					<Descricao xsi:type="xsd:string">Gerado documento público 0482331 (Formulário COF - Pleitos Orçamentários/Financeiros)</Descricao>
+					<DataHora xsi:type="xsd:string">02/04/2018 11:31:50</DataHora>
+					<Unidade xsi:type="ns1:Unidade">
+						<IdUnidade xsi:type="xsd:string">110000849</IdUnidade>
+						<Sigla xsi:type="xsd:string">SESP/DPO</Sigla>
+						<Descricao xsi:type="xsd:string">Diretoria de Planejamento e Orçamento</Descricao>
+					</Unidade>
+					<Usuario xsi:type="ns1:Usuario">
+						<IdUsuario xsi:type="xsd:string">100025097</IdUsuario>
+						<Sigla xsi:type="xsd:string">76644723691</Sigla>
+						<Nome xsi:type="xsd:string">Andre Toscano De Oliveira E Souza</Nome>
+					</Usuario>
+				</AndamentoGeracao>
+				<Assinaturas SOAP-ENC:arrayType="ns1:Assinatura[2]" xsi:type="ns1:ArrayOfAssinatura">
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Andre Toscano De Oliveira E Souza</Nome>
+						<CargoFuncao xsi:type="xsd:string">Servidor da Diretoria de Planejamento e Orçamento</CargoFuncao>
+						<DataHora xsi:type="xsd:string">02/04/2018 17:26:07</DataHora>
+						<IdUsuario xsi:type="xsd:string">100025097</IdUsuario>
+						<IdOrigem xsi:type="xsd:string">carga_inicial</IdOrigem>
+						<IdOrgao xsi:type="xsd:string">37</IdOrgao>
+						<Sigla xsi:type="xsd:string">76644723691</Sigla>
+					</item>
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Cristiane Torres Maia de Carvalho</Nome>
+						<CargoFuncao xsi:type="xsd:string">Superintendente</CargoFuncao>
+						<DataHora xsi:type="xsd:string">02/04/2018 17:50:16</DataHora>
+						<IdUsuario xsi:type="xsd:string">100025127</IdUsuario>
+						<IdOrigem xsi:type="xsd:string">carga_inicial</IdOrigem>
+						<IdOrgao xsi:type="xsd:string">37</IdOrgao>
+						<Sigla xsi:type="xsd:string">05520766606</Sigla>
+					</item>
+				</Assinaturas>
+				<Publicacao xsi:nil="true" xsi:type="ns1:Publicacao" />
+				<Campos SOAP-ENC:arrayType="ns1:Campo[15]" xsi:type="ns1:ArrayOfCampo">
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">NUMERO DO FORMULÁRIO</Nome>
+						<Valor xsi:type="xsd:string">004</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Data:</Nome>
+						<Valor xsi:type="xsd:string">02/04/2018</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">1. Identificação do solicitante</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Órgão/Entidade:</Nome>
+						<Valor xsi:type="xsd:string">SESP</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Responsável Técnico:</Nome>
+						<Valor xsi:type="xsd:string">André Toscano</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">E-mail (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">andre.toscano@seguranca.mg.gov.br</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Telefone (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">39155775</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">2. Identificação da Demanda</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">a) Demanda:</Nome>
+						<Valor xsi:type="xsd:string">Suplementação Orçamentária  Aporte de Recursos</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Se outros, favor especificar:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">b) Resumo do pedido:</Nome>
+						<Valor xsi:type="xsd:string">Solicitamos aporte orçamentário no valor de R$ 2.533.866,00 para atendimento às necessidades de aquisições para cumprimento do Plano Estratégico da SESP, bem como para atividades operacionais da SINSP.</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">c) Valor:</Nome>
+						<Valor xsi:type="xsd:string">2.533.866,00</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">d) Dotação orçamentária origem:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">e) Dotação orçamentária destino:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">f) Justificativa do pedido e/ou da não programação</Nome>
+						<Valor xsi:type="xsd:string">Na ação 1147, o valor de R$136.200,00 será utilizado para aquisição de equipamento para operação conjunta com o Centro Integrado de Comando e Controle (CICC) e na ação 4618, o valor de R$ 2.397.666,00 será utilizado para ações operacionais das dezenove Regiões Integradas de Segurança Pública do Estado de Minas Gerais e visando a realização da campanha Sou pela Vida, Dirijo sem Bebida. SESP realiza, juntamente com instituições parceiras operações integradas de blitz repressiva com foco na Lei Seca, uma vez que o uso de álcool está associado a grande porcentagem dos acidentes de trânsito. Nesse sentido, a SESP precisa realizar a compra destes bens que serão utilizados nas blitzen de Lei Seca para a manutenção da campanha Sou pela Vida. Dirijo Sem Bebida, caso contrário não será realizada as operações, tendo em vista a falta dos bens. Em anexo planilha detalhada deste aporte orçamentário.</Valor>
+					</item>
+				</Campos>
+			</parametros>
+		</ns1:consultarDocumentoResponse>
+		<ns1:consultarDocumentoResponse>
+			<parametros xsi:type="ns1:RetornoConsultaDocumento">
+				<IdProcedimento xsi:type="xsd:string">604550</IdProcedimento>
+				<ProcedimentoFormatado xsi:type="xsd:string">2010.01.0001455/2018-94</ProcedimentoFormatado>
+				<IdDocumento xsi:type="xsd:string">604685</IdDocumento>
+				<DocumentoFormatado xsi:type="xsd:string">0483751</DocumentoFormatado>
+				<LinkAcesso xsi:type="xsd:string">https://www.sei.mg.gov.br/sei/controlador.php?acao=procedimento_trabalhar&amp;id_procedimento=604550&amp;id_documento=604685</LinkAcesso>
+				<Serie xsi:type="ns1:Serie">
+					<IdSerie xsi:type="xsd:string">761</IdSerie>
+					<Nome xsi:type="xsd:string">Formulário COF - Pleitos Orçamentários/Financeiros</Nome>
+				</Serie>
+				<Numero xsi:nil="true" />
+				<Data xsi:type="xsd:string">02/04/2018</Data>
+				<UnidadeElaboradora xsi:type="ns1:Unidade">
+					<IdUnidade xsi:type="xsd:string">110002068</IdUnidade>
+					<Sigla xsi:type="xsd:string">IPSEMG/CINF</Sigla>
+					<Descricao xsi:type="xsd:string">Coordenação de Infraestrutura</Descricao>
+				</UnidadeElaboradora>
+				<AndamentoGeracao xsi:type="ns1:Andamento">
+					<Descricao xsi:type="xsd:string">Gerado documento público 0483751 (Formulário COF - Pleitos Orçamentários/Financeiros)</Descricao>
+					<DataHora xsi:type="xsd:string">02/04/2018 13:19:04</DataHora>
+					<Unidade xsi:type="ns1:Unidade">
+						<IdUnidade xsi:type="xsd:string">110002068</IdUnidade>
+						<Sigla xsi:type="xsd:string">IPSEMG/CINF</Sigla>
+						<Descricao xsi:type="xsd:string">Coordenação de Infraestrutura</Descricao>
+					</Unidade>
+					<Usuario xsi:type="ns1:Usuario">
+						<IdUsuario xsi:type="xsd:string">100285214</IdUsuario>
+						<Sigla xsi:type="xsd:string">95489746653</Sigla>
+						<Nome xsi:type="xsd:string">Mirian de Jesus Gregório</Nome>
+					</Usuario>
+				</AndamentoGeracao>
+				<Assinaturas SOAP-ENC:arrayType="ns1:Assinatura[1]" xsi:type="ns1:ArrayOfAssinatura">
+					<item xsi:type="ns1:Assinatura">
+						<Nome xsi:type="xsd:string">Paulo César Moreira Franco</Nome>
+						<CargoFuncao xsi:type="xsd:string">Servidor</CargoFuncao>
+						<DataHora xsi:type="xsd:string">03/04/2018 03:54:02</DataHora>
+						<IdUsuario xsi:type="xsd:string">100285217</IdUsuario>
+						<IdOrigem xsi:nil="true" />
+						<IdOrgao xsi:type="xsd:string">63</IdOrgao>
+						<Sigla xsi:type="xsd:string">07041154688</Sigla>
+					</item>
+				</Assinaturas>
+				<Publicacao xsi:nil="true" xsi:type="ns1:Publicacao" />
+				<Campos SOAP-ENC:arrayType="ns1:Campo[15]" xsi:type="ns1:ArrayOfCampo">
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">NUMERO DO FORMULÁRIO</Nome>
+						<Valor xsi:type="xsd:string">01</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Data:</Nome>
+						<Valor xsi:type="xsd:string">02/04/2018</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">1. Identificação do solicitante</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Órgão/Entidade:</Nome>
+						<Valor xsi:type="xsd:string">IPSEMG</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Responsável Técnico:</Nome>
+						<Valor xsi:type="xsd:string">Paulo César Morera Franco</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">E-mail (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">paulo.franco@ipsemg.mg.gov.br</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Telefone (responsável técnico):</Nome>
+						<Valor xsi:type="xsd:string">3915-2506</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">2. Identificação da Demanda</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">a) Demanda:</Nome>
+						<Valor xsi:type="xsd:string">Liberação de Recursos Financeiros</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">Se outros, favor especificar:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">b) Resumo do pedido:</Nome>
+						<Valor xsi:type="xsd:string">Contratação de empresa especializada para fornecimento eventual e futuro de licenças e atualização de software backup, incluindo garantia e suporte durante o período de 12 (doze) meses.</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">c) Valor:</Nome>
+						<Valor xsi:type="xsd:string">622.152,50</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">d) Dotação orçamentária origem:</Nome>
+						<Valor xsi:type="xsd:string">2011 10 302 071 4166 0001 33903927 0 50 1</Valor>
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">e) Dotação orçamentária destino:</Nome>
+						<Valor xsi:nil="true" />
+					</item>
+					<item xsi:type="ns1:Campo">
+						<Nome xsi:type="xsd:string">f) Justificativa do pedido e/ou da não programação</Nome>
+						<Valor xsi:type="xsd:string">Trata-se de contratação de empresa especializada para fornecimento eventual e futuro de licenças e atualização de software backup, incluindo garantia e suporte durante o período de 12 (doze) meses, através de execução de Ata de Registro de Preços nº 338/2017 da Secretaria de Estado de Fazenda do estado de Minas Gerais. Destaca-se como fator de necessidade da nova contratação a modernização da solução de backup atualmente em utilização, que se encontra defasada tecnologicamente e não atende aos requisitos de segurança e performance estabelecidos para a sua infraestrutura de TI.&#13;
+A contratação é imprescindível para a maior eficiência dos backups de dados dos sistemas e de usuários do IPSEMG.</Valor>
+					</item>
+				</Campos>
+			</parametros>
+		</ns1:consultarDocumentoResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
